@@ -1,4 +1,7 @@
 import "./Tours.css"
+// import data from "./data/data.json";  
+import React from 'react';
+
 const Tours = (props)=>{
     return(
         <>
@@ -15,6 +18,7 @@ const Tours = (props)=>{
                 
             })
         }
+        {/* <Tours city={data}/> */}
         </>
     )
     };

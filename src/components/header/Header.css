@@ -1,3 +1,4 @@
+
 h1{
     color: #401ebd;
     font-family:cursive;
@@ -6,4 +7,16 @@ h1{
     background-color: lightgray;
     text-align: center;
 
+}
+a{
+    color: rgb(108, 32, 230);
+    border:1px solid cornsilk ;
+    border-radius: 10px;
+    text-decoration: none;
+}
+a span{
+    padding:15px ;
+    margin: 10px;
+    font-size: larger;
+    
 }

@@ -1,14 +1,14 @@
 import Header from "../header/Header";
-import Footer from "../footer/Footer";
 import Tours from "../tours/Tours";
-import data from "../data/data.json"
-function App(){
+import Footer from "../footer/Footer";
+import data from "../data/data.json";
+let Home = () => {
     return(
         <>
-            <Header/>
-            <Tours city={data}/>
-            <Footer/>
+        <Header/>
+        <Tours city={data}/>
+        <Footer/>
         </>
     )
-};
-export default App;
+}
+export default Home;
