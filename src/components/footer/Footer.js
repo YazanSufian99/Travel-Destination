@@ -1,3 +1,4 @@
+import "./Footer.css"
 function Footer(){
     return(
         <>
@@ -5,7 +6,7 @@ function Footer(){
             <li><a href="#">FaceBok</a></li>
             <li><a href="#">Twitter</a></li>
         </ul>
-         <p>&copy; Yazan</p>
+         <p id="copy">&copy; Yazan</p>
         </>
        
     )
