@@ -1,5 +1,13 @@
 import React from "react";
 import reactDom from "react-dom";
-import App from "./components/home/Home.js";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
 
-reactDom.render(<App/>,document.getElementById("root"));
+reactDom.render(
+    <React.StrictMode>
+        <BrowserRouter>
+            <App/>
+        </BrowserRouter>
+    </React.StrictMode>,
+    document.getElementById('root')
+);
