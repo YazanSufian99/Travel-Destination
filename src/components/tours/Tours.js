@@ -1,10 +1,11 @@
+import "./Tours.css"
 const Tours = (props)=>{
     return(
         <>
         {
             props.city.map(city =>{
                 return(
-                  <div>
+                  <div id="div1">
                     <h3>{city.name}</h3>
                     <p>{city.info}</p>
                     <h5>{city.price}</h5>
